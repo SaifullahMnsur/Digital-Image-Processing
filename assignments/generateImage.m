@@ -10,4 +10,4 @@ image = 0 * ones(rows, cols, channels, 'uint8');
 
 imshow(image);
 
-imwrite(image, 'image2.jpg');
+imwrite(image, 'images/image2.jpg');

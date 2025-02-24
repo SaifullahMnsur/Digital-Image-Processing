@@ -3,7 +3,7 @@ clear;
 close all;
 
 % Read the color image
-image = imread('dora.jpg');
+image = imread('images/dora.jpg');
 
 % Convert the image into separate Red, Green, and Blue channels
 redChannel = image(:,:,1);
